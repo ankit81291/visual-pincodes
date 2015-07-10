@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>LogiNext</title>
+        <link rel="stylesheet" href="../css/bootstrap.css" />
+        <link rel="stylesheet" href="../css/logiNext.css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body>
+
+
+        <div class="container">
+            <section class="graph pull-left">
+                BAR GRAPH
+                <div class="chart">
+                </div>
+            </section>
+            <section class="ratingCtrl pull-right">
+                <div>Click on Marker in Map to select a pincode to edit the rating</div>
+                
+                Pincode:<span id="pin"></span> 
+                <div id="slider"></div>
+                <div class="pull-right" id="value"></div>
+            </section>
+
+            <div class="clearfix"></div>
+            <section class="map">
+                Note: keep your mouse on top of marker to see the picode
+                <div class="map" id="mapCanvas"></div>
+            </section>
+        </div>
+
+        <script src="../bower_components/d3/d3.js"></script>
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../bower_components/jqueryui/jquery-ui.js"></script>
+        <script type="text/javascript"
+          src="https://maps.googleapis.com/maps/api/js">
+        </script>
+        <script data-main="../js/core/boot" src="../js/core/require.js"></script>
+            
+    </body>
+</html>

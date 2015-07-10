@@ -1,0 +1,9 @@
+{
+  "name": "package",
+  "version": "0.0.0",
+  "dependencies": {
+    "d3": "~3.5.6",
+    "jquery": "2.1.4",
+    "jqueryui": "~1.11.4"
+  }
+}

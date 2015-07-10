@@ -1,0 +1,58 @@
+.chart div{
+  font: 10px sans-serif;
+  background-color: blue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+.map {
+	height: 700px;
+	background-color: #CCC;
+}
+
+.graph {
+	width: 50%;
+}
+
+.ratingCtrl {
+    height: auto;
+    padding: 100px;
+    width: 40%;
+    position: relative;
+}
+
+.ui-state-disabled {
+	opacity: .2;
+}
+
+#slider{
+	float:left;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #333 #333 #777 #333;
+    border-radius: 25px;
+    width: 300px;
+    position: absolute;
+    height: 13px;
+    background-color: black;
+  	box-shadow: inset 0 1px 5px 0px rgba(0, 0, 0, .5), 
+                 0 1px 0 0px rgba(250, 250, 250, .5);
+  	left: 20px;
+}
+
+.ui-slider-handle {
+    position: absolute;
+	z-index: 2;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	background: url('images/redMark.png') no-repeat 25% 25%;
+	font-weight: bold;
+	color: #1C94C4;
+	outline: none;
+	top: -7px;
+	margin-left: -12px;
+}
